@@ -1,5 +1,12 @@
-#jetbrains
-.jetbrain.com
+#JetBrains
+DOMAIN-SUFFIX,jetbrain.com
 
 #onlyfans
-.onlyfans.com
+DOMAIN-SUFFIX,onlyfans.com
+
+#PayPal
+USER-AGENT,PayPal*
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypal.me
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypalobjects.com
