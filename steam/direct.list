@@ -5,7 +5,7 @@
 .cdn.steampowered.com
 .steamusercontent.com
 .steamcontent.com
-*.steamcontent.com
+.steamcontent.com
 .steamstatic.com
-*.cm.steampowered.com
+.cm.steampowered.com
 .steam-chat.com
