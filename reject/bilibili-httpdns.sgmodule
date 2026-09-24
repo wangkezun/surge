@@ -1,5 +1,0 @@
-#!name=Bilibili HTTPDNS 重试抑制
-#!desc=静默丢弃 Bilibili dataflow 遥测及其 HTTPDNS 查询，避免普通 REJECT 引发高频重试。
-
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/wangkezun/surge/master/reject/bilibili-httpdns.list,REJECT-DROP
