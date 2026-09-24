@@ -1,0 +1,10 @@
+# Bilibili telemetry and its HTTPDNS lookup.
+# Use this list with the REJECT-DROP policy and place it before generic reject lists.
+
+# Telemetry endpoints. Keep this targeted: do not block the whole Bilibili domain tree.
+DOMAIN,dataflow.biliapi.com
+DOMAIN,cm.bilibili.com
+
+# Bilibili repeatedly retries this HTTPDNS query when it receives an immediate REJECT.
+# Matching the URL avoids maintaining the rotating resolver IP addresses.
+URL-REGEX,^http://[0-9.]+/(?:191607/)?resolve\?host=dataflow\.biliapi\.com(?:&|$)
